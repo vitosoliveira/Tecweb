@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Aula 05</title>
+  </head>
+  <body>
+    <h1>Aula 05</h1>
+        Não ordenada
+    <ul>
+        <li>item um</li>
+        <li>item dois</li>
+    </ul>
+        Ordenada
+    <ol>
+        <li>nao ordenada</li>
+        <li>nao ordenada 2</li>
+    </ol>
+    <ul>
+        <li>coisas</li>
+        <ol>
+            <li>pipoca</li>
+            <li>dinhero</li>
+        </ol>
+    </ul>
+    <table border="1">
+        <tr>
+            <th>cabeçalho 1</th>
+            <th>cabeçalho 2</th>
+         <tr>
+         <tr>   
+            <td>fila 2 coluna 1</td>
+            <td>fila 2 coluna 2</td>
+         </tr>
+         <tr>   
+            <td>fila 1 coluna 1</td>
+            <td>fila 2 coluna 2</td>
+         </tr>
+    </table>
+    
+    <div style="background-color: rebeccapurple;">
+        Primeira tag div
+    </div>
+     <div style="background-color: salmon;">
+        a primeira tag div
+    </div>
+
+    <!--criacao de um fomulario-->
+    <h2>Formulario</h2>
+    <form action="http://juliom6.pythonanywhere.com/contato" method="POST">
+        <div>
+            <label for="id_nome">Nome: </label>
+            <input type="text" id = "id_nome" required name="nome">
+        </div>
+        <div>
+            <label for="id_email">Email: </label>
+            <input type="email" id ="id_email" required name="email">
+        </div>
+        <div>
+            <label for="id_mensagem">Texto</label>
+            <textarea name="mensagem" id="id_mensagem" cols="30" rows="5" required></textarea>
+        </div>
+        <input type="submit" value="Enviar">
+    </form>
+    
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
